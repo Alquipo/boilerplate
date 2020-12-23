@@ -33,6 +33,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ##ESLINT
 ##PRETTIER
 ##HUSKY
-##LINT-sTAGED
+##LINT-STAGED
 ##JEST
-##TYPESCRIPT
+##React Testing Library
