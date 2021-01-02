@@ -54,7 +54,11 @@ Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos F
   </tr>
   <tr>
     <td><img src=".github/readme/generate-components.png" width=300 /></td>
-    <td><img src=".github/readme/storybook-main.png" width=300 /></td>
+    <td>
+      <a target="_blank" href=".github/readme/storybook-main.png">
+        <img src=".github/readme/storybook-main.png" width=300 />
+      </a>
+    </td>
     <td><img src=".github/readme/component-main.png" width=300 /></td>
     <!-- <td><img src=".github/readme/component-main.png" width=180 /></td>
     <td><img src=".github/readme/component-main.png" width=180 /></td> -->
