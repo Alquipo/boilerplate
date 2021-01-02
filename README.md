@@ -42,20 +42,24 @@
 
 Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos FrontEnd.
 
-<!-- ## 🎨 Layout
+## 🎨 Layout
 
-Design feito por
+<!-- Design feito por -->
 
 <table>
   <tr>
-    <td colspan="2"><h4 align="center">Desktop</h4> </td>
-    <td colspan="2"><h4 align="center">Mobile</h4></td>
+    <td colspan="1"><h4 align="center">Geração de Componentes</h4> </td>
+    <td colspan="1"><h4 align="center">Storybook</h4></td>
+    <td colspan="1"><h4 align="center">Main Component</h4></td>
   </tr>
   <tr>
-    <td><img src=".github/readme/" width=300 /></td><td><img src=".github/readme/Formulário.png" width=300 /></td>
-    <td><img src=".github/readme/" width=180 /></td><td><img src=".github/readme/Home-mobile.png" width=180 /></td>
+    <td><img src=".github/readme/generate-components.png" width=300 /></td>
+    <td><img src=".github/readme/storybook-main.png" width=300 /></td>
+    <td><img src=".github/readme/component-main.png" width=300 /></td>
+    <!-- <td><img src=".github/readme/component-main.png" width=180 /></td>
+    <td><img src=".github/readme/component-main.png" width=180 /></td> -->
   </tr>
-</table> -->
+</table>
 
 ## 🔨 Tecnologias:
 
@@ -129,29 +133,6 @@ $ yarn generate ComponentName
 ## 📝 Licença
 
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://opensource.org/licenses/MIT) para saber mais.
-
-## 🦸 Autor
-
-<h3 align="center">
-  <img style="border-radius: 50%" src="https://avatars2.githubusercontent.com/u/58523339?s=460&u=5bba39ceab3329cfff6c86b2d3dfdcd5f944c4c0&v=4" width="100px;" alt="Foto de Alquipo"/>
-  <br/>
-  <strong>Alquipo Neto</strong> 🚀
-  <br/>
-  <br/>
-
- <a href="https://www.linkedin.com/in/alquiponeto" alt="LinkedIn" target="blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" />
-  </a>
-
- <a href="https://wa.me/5522999989597/" alt="WhatsApp" target="blank">
-    <img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=WhatsApp&logoColor=white" />
-  </a>
-
-  <a href="mailto:alquiponeto@outlook.com.br?subject=Olá%20Alquipo" alt="Email" target="blank">
-    <img src="https://img.shields.io/badge/-alquiponeto@outlook.com.br-blue?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alquiponeto@outlook.com.br" />
-  </a>
-
-<br/>
 
 Feito com ❤️ por Alquipo Neto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alquiponeto/)
 
