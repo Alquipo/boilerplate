@@ -26,6 +26,7 @@ exports[`<Main/> should render the heading 1`] = `
 }
 
 .c1 {
+  color: white;
   width: 25rem;
   margin-bottom: 2rem;
 }
@@ -48,14 +49,14 @@ exports[`<Main/> should render the heading 1`] = `
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="Imagem escrito NEXT.JS"
     class="c1"
-    src="/img/logo.svg"
+    src="/img/nextjs-logo.svg"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    Boilerplate NextJS - Alquipo Neto
   </h1>
   <h2
     class="c3"

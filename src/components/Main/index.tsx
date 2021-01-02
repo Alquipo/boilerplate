@@ -1,14 +1,11 @@
 import * as S from './styles'
 
 const Main = ({
-  title = 'React Avançado',
+  title = 'Boilerplate NextJS - Alquipo Neto',
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
+    <S.Logo src="/img/nextjs-logo.svg" alt="Imagem escrito NEXT.JS" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
