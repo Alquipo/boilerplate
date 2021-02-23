@@ -36,8 +36,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="pt-BR">
-        <Head />
+      <Html lang="pt-br">
+        <Head>
+          <link rel="shortcut icon" href="img/nextjs-logo.svg" />
+
+          <link rel="manifest" href="/manifest.json" />
+        </Head>
         <body>
           <Main />
           <NextScript />
