@@ -1,7 +1,11 @@
 {
-  "name": "boilerplate-nextjs",
-  "version": "1.0.0",
-  "private": true,
+  "name": "boilerplate",
+  "version": "2.0.0",
+  "description": "Boilerplate utilizando Typescript, React, NextJS e Styled Components!",
+  "author": "Alquipo Neto",
+  "license": "MIT",
+  "repository": "github:Alquipo/boilerplate",
+  "homepage": "https://www.linkedin.com/in/alquiponeto/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
