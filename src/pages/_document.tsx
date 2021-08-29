@@ -37,13 +37,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head>
-          <link rel="shortcut icon" href="img/nextjs-logo.svg" />
-          <link rel="apple-touch-icon" href="img/nextjs-logo.svg" />
-
-          <link rel="manifest" href="/manifest.json" />
-          <meta name="theme-color" content="#f2f3f5" />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

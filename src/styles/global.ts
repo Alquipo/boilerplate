@@ -7,9 +7,27 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    &::before,
+    &::after {
+      box-sizing: inherit;
+    }
   }
 
   ${({ theme }) => css`
+    //scrollbar configuration
+    ::-webkit-scrollbar {
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: ${theme.colors.mainBg};
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: ${theme.colors.primary};
+      border-radius: 1rem;
+    }
+
     html {
       font-size: 62.5%;
     }
@@ -24,6 +42,7 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+      color: ${theme.colors.gray};
     }
   `}
 
