@@ -1,6 +1,7 @@
 {
   "*.{ts,tsx}": [
     "eslint 'src/**' --fix",
+    "yarn typecheck",
     "yarn test:staged"
   ]
 }
