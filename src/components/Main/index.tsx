@@ -18,6 +18,7 @@ const Main = ({
   return (
     <S.Wrapper>
       <S.Logo src="/img/nextjs-logo.svg" alt="Imagem escrito NEXT.JS" />
+
       <S.Title>{title}</S.Title>
       <S.Description>{description}</S.Description>
       <S.Illustration>
