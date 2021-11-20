@@ -14,31 +14,31 @@ export const ThemeContext = createContext<ThemeContextData>(
 )
 
 const ThemesProvider: React.FC = ({ children }) => {
-  const [theme, setTheme] = usePersistedLocalStorage<DefaultTheme>(
-    process.env.NEXT_PUBLIC_KEY_STORAGE_THEME,
-    combineTheme(light)
-  )
+  //   const [theme, setTheme] = usePersistedLocalStorage<DefaultTheme>(
+  //     process.env.NEXT_PUBLIC_KEY_STORAGE_THEME,
+  //     combineTheme(light)
+  //   )
 
-  function toggleTheme() {
-    setTheme(theme.name === 'LIGHT' ? combineTheme(dark) : combineTheme(light))
-  }
-  // const [theme, setTheme] = useState<DefaultTheme>(combineTheme(dark))
-
-  // useEffect(() => {
-  //   const themeLocal = localStorage.getItem('@MoveIt:theme')
-
-  //   setTheme(themeLocal === 'LIGHT' ? combineTheme(light) : combineTheme(dark))
-  // }, [])
-
-  // const toggleTheme = () => {
-  //   if (theme.name === 'DARK') {
-  //     localStorage.setItem('@MoveIt:theme', light.name)
-  //     setTheme(combineTheme(light))
-  //   } else {
-  //     localStorage.setItem('@MoveIt:theme', dark.name)
-  //     setTheme(combineTheme(dark))
+  //   function toggleTheme() {
+  //     setTheme(theme.name === 'LIGHT' ? combineTheme(dark) : combineTheme(light))
   //   }
-  // }
+  const [theme, setTheme] = useState<DefaultTheme>(combineTheme(dark))
+
+  useEffect(() => {
+    const themeLocal = localStorage.getItem('@MoveIt:theme')
+
+    setTheme(themeLocal === 'LIGHT' ? combineTheme(light) : combineTheme(dark))
+  }, [])
+
+  const toggleTheme = () => {
+    if (theme.name === 'DARK') {
+      localStorage.setItem('@MoveIt:theme', light.name)
+      setTheme(combineTheme(light))
+    } else {
+      localStorage.setItem('@MoveIt:theme', dark.name)
+      setTheme(combineTheme(dark))
+    }
+  }
   return (
     <ThemeContext.Provider value={{ toggleTheme, theme }}>
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
