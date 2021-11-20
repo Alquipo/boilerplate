@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
       height: 0.5rem;
     }
     ::-webkit-scrollbar-track {
-      background: ${theme.colors.mainBg};
+      background: ${theme.colors.background_primary};
     }
 
     ::-webkit-scrollbar-thumb {
@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
-      color: ${theme.colors.gray};
+      color: ${theme.colors.secondary};
     }
   `}
 

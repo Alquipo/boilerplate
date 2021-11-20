@@ -1,5 +1,10 @@
+import { useContext } from 'react'
+
+import { Sun, Moon } from '@styled-icons/bootstrap'
+import { useToggleTheme } from 'context/toggleTheme'
 import { useRouter } from 'next/dist/client/router'
 import Image from 'next/image'
+import { ThemeContext } from 'styled-components'
 
 import * as S from './styles'
 
@@ -13,10 +18,17 @@ const Main = ({
   description = 'TypeScript, ReactJS, NextJS e Styled Components',
   page
 }: MainProps) => {
+  const { name } = useContext(ThemeContext)
+  const { toggleTheme } = useToggleTheme()
+
   const router = useRouter()
 
   return (
     <S.Wrapper>
+      <S.ButtonIcon onClick={toggleTheme}>
+        {name === 'LIGHT' ? <Sun /> : <Moon />}
+      </S.ButtonIcon>
+
       <S.Logo src="/img/nextjs-logo.svg" alt="Imagem escrito NEXT.JS" />
 
       <S.Title>{title}</S.Title>

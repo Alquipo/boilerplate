@@ -16,5 +16,9 @@ module.exports = {
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
   transform: {
     '^.+\\.ts(x)?$': ['@swc/jest', { configFile: '.swcrc' }]
+  },
+  moduleNameMapper: {
+    '^styled-components':
+      '<rootDir>/node_modules/styled-components/dist/styled-components.browser.cjs.js'
   }
 }

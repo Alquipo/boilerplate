@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: ${({ theme }) => theme.colors.mainBg};
+  color: ${({ theme }) => theme.colors.white};
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -14,7 +14,7 @@ export const Wrapper = styled.main`
 `
 
 export const Logo = styled.img`
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   width: 25rem;
   margin-bottom: 2rem;
 `
@@ -36,9 +36,18 @@ export const Illustration = styled.div`
 `
 export const Button = styled.button`
   border: none;
-  background-color: #3cd3c1;
+  background-color: ${({ theme }) => theme.colors.secondary};
   width: 10rem;
   cursor: pointer;
   border-radius: 0.5rem;
   margin-top: 1rem;
+`
+export const ButtonIcon = styled.button`
+  background: transparent;
+  color: inherit;
+  width: 5rem;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
 `

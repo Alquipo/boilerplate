@@ -21,9 +21,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@styled-icons/bootstrap": "^10.34.0",
     "next": "12.0.4",
     "next-pwa": "^5.4.0",
     "next-seo": "^4.28.1",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.3"

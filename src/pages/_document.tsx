@@ -40,8 +40,8 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <meta charSet="utf-8" />
-          <link rel="shortcut icon" href="img/favicon.png" />
-          <link rel="apple-touch-icon" href="img/favicon.png" />
+          <link rel="shortcut icon" href="./favicon.svg" />
+          <link rel="apple-touch-icon" href="./favicon.svg" />
 
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#f2f3f5" />

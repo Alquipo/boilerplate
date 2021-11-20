@@ -2,7 +2,9 @@ import * as NextImage from "next/image";
 
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from '../src/styles/global'
-import theme from '../src/styles/theme'
+import { combineTheme, dark, light } from '../src/styles/themes'
+import { ThemeContext } from '../src/context/toggleTheme'
+
 
 Object.defineProperty(NextImage, 'default', {
   configurable: true,
@@ -13,10 +15,12 @@ Object.defineProperty(NextImage, 'default', {
 })
 
 export const decorators = [
-  (Story) => (
-    <ThemeProvider theme={theme}>
-      <GlobalStyles />
-      <Story />
-    </ThemeProvider>
+  (Story, context) => (
+
+
+    <ThemeContext.Provider value={{ toggleTheme, ...context.args }}>
+      <ThemeProvider theme={combineTheme(light)}><GlobalStyles />
+        <Story /></ThemeProvider>
+    </ThemeContext.Provider>
   )
 ]

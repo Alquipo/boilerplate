@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <>
       <NextSeo title="Principal" />
-
       <Main page="/page2" />
     </>
   )
