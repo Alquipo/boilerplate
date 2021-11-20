@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
       height: 0.5rem;
     }
     ::-webkit-scrollbar-track {
-      background: ${theme.colors.background_primary};
+      background: ${theme.colors.primary};
     }
 
     ::-webkit-scrollbar-thumb {
