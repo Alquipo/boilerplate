@@ -13,5 +13,8 @@ module.exports = {
     '!src/graphql/**/*.ts'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
-  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest']
+  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
+  transform: {
+    '^.+\\.ts(x)?$': ['@swc/jest', { configFile: '.swcrc' }]
+  }
 }
