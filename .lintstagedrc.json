@@ -1,7 +1,7 @@
 {
   "*.{ts,tsx}": [
     "eslint 'src/**' --fix",
-    "yarn typecheck",
+    "tsc --project tsconfig.json --noEmit",
     "yarn test:staged"
   ]
 }

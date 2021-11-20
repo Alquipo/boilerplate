@@ -28,7 +28,17 @@ export const Description = styled.h2`
   font-weight: 400;
 `
 
-export const Illustration = styled.img`
+export const Illustration = styled.div`
   margin-top: 3rem;
   width: min(30rem, 100%);
+  height: min(30rem, 100%);
+  position: relative;
+`
+export const Button = styled.button`
+  border: none;
+  background-color: #3cd3c1;
+  width: 10rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
 `

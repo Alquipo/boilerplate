@@ -4,9 +4,9 @@ import { NextSeo } from 'next-seo'
 export default function Home() {
   return (
     <>
-      <NextSeo title="Principal" />
+      <NextSeo title="Pagina 2" />
 
-      <Main page="/page2" />
+      <Main title="Teste rota" description="testando rota" page="/" />
     </>
   )
 }
