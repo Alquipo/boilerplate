@@ -39,3 +39,7 @@ public/workbox-*.js
 
 #storybook
 storybook-static
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
