@@ -8,8 +8,8 @@ describe('<Main/>', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /Boilerplate NextJS - Alquipo Neto/i
-      })
+        name: /Boilerplate NextJS - Alquipo Neto/i,
+      }),
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()

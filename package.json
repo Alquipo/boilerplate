@@ -22,6 +22,9 @@
     "serve-storybook": "serve storybook-static",
     "prepare": "husky install"
   },
+  "eslintConfig": {
+    "extends": "@alquipo/eslint-config/next"
+  },
   "dependencies": {
     "next": "^12.3.1",
     "next-pwa": "^5.6.0",
@@ -31,8 +34,8 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@alquipo/eslint-config": "^1.0.1",
     "@babel/core": "^7.17.9",
-    "@next/eslint-plugin-next": "^12.3.1",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-links": "^6.5.12",
@@ -44,17 +47,7 @@
     "@testing-library/user-event": "14.4.3",
     "@types/react": "18.0.21",
     "@types/styled-components": "^5.1.26",
-    "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.19.0",
     "babel-loader": "^8.2.4",
-    "eslint": "8.25.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-import-helpers": "^1.2.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0",
-    "eslint-plugin-storybook": "^0.6.6",
     "git-commit-msg-linter": "^4.1.1",
     "husky": "^8.0.1",
     "jest": "29.1.2",
