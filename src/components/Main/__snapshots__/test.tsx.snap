@@ -98,4 +98,4 @@ exports[`<Main/> should render the heading 1`] = `
     Mudar de Página
   </button>
 </main>
-`;
+`
