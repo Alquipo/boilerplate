@@ -7,15 +7,15 @@
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz"
   integrity sha512-+u76oB43nOHrF4DDWRLWDCtci7f3QJoEBigemIdIeTi1ODqjx6Tad9NCVnPRwewWlKkVab5PlK8DCtPTyX7S8g==
 
-"@alquipo/eslint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alquipo/eslint-config/-/eslint-config-1.0.1.tgz#bcc991ff961511005a419fb353ac2cbb82cb0d59"
-  integrity sha512-J5kIxMAu69VD+xyEjreXEsF2Mb+BGDfBSHV36RYu/u6xqARRVF7lov4Zc9Dr3ltkBvvuwQFzh8dYEJFzOnfacw==
+"@alquipo/eslint-config@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@alquipo/eslint-config/-/eslint-config-1.2.3.tgz#789d5e124d4a016ea6abe96ed0fb569dd4112140"
+  integrity sha512-tcNx7zhtrK3wViPB/5qlviFGWBynZjMBtavw7ev9icJiYBrtuEvrh0PZ87SXBKMdLpPBhfWwoR2N3JKWqRjtZg==
   dependencies:
     "@next/eslint-plugin-next" "^12.3.1"
     "@typescript-eslint/eslint-plugin" "^5.19.0"
     "@typescript-eslint/parser" "^5.19.0"
-    eslint "^7.23.0 || ^8.0.0"
+    eslint "^7.32.0 || ^8.0.0"
     eslint-config-prettier "^8.5.0"
     eslint-config-standard "^17.0.0"
     eslint-plugin-import "^2.26.0"
@@ -6219,7 +6219,7 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-"eslint@^7.23.0 || ^8.0.0", eslint@^8.25.0:
+"eslint@^7.32.0 || ^8.0.0", eslint@^8.25.0:
   version "8.25.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.25.0.tgz#00eb962f50962165d0c4ee3327708315eaa8058b"
   integrity sha512-DVlJOZ4Pn50zcKW5bYH7GQK/9MsoQG2d5eDH0ebEkE8PbgzTTmtt/VTH9GGJ4BfeZCpBLqFfvsjX35UacUL83A==
