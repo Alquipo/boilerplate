@@ -11,7 +11,7 @@ export type MainProps = {
 const Main = ({
   title = 'Boilerplate NextJS - Alquipo Neto',
   description = 'TypeScript, ReactJS, NextJS e Styled Components',
-  page,
+  page
 }: MainProps) => {
   const router = useRouter()
 
