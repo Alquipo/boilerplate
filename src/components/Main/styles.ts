@@ -37,8 +37,11 @@ export const Illustration = styled.div`
 export const Button = styled.button`
   border: none;
   background-color: ${(props) => props.theme.colors.secondary};
-  width: 10rem;
+  width: 12rem;
+  height: 3rem;
   cursor: pointer;
   border-radius: 0.5rem;
   margin-top: 1rem;
+
+  font-weight: bold;
 `

@@ -50,10 +50,12 @@ exports[`<Main/> should render the heading 1`] = `
 .c5 {
   border: none;
   background-color: #3CD3C1;
-  width: 10rem;
+  width: 12rem;
+  height: 3rem;
   cursor: pointer;
   border-radius: 0.5rem;
   margin-top: 1rem;
+  font-weight: bold;
 }
 
 <main
@@ -96,4 +98,4 @@ exports[`<Main/> should render the heading 1`] = `
     Mudar de Página
   </button>
 </main>
-`
+`;
