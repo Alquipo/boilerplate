@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz"
   integrity sha512-+u76oB43nOHrF4DDWRLWDCtci7f3QJoEBigemIdIeTi1ODqjx6Tad9NCVnPRwewWlKkVab5PlK8DCtPTyX7S8g==
 
-"@alquipo/eslint-config@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@alquipo/eslint-config/-/eslint-config-1.2.3.tgz#789d5e124d4a016ea6abe96ed0fb569dd4112140"
-  integrity sha512-tcNx7zhtrK3wViPB/5qlviFGWBynZjMBtavw7ev9icJiYBrtuEvrh0PZ87SXBKMdLpPBhfWwoR2N3JKWqRjtZg==
+"@alquipo/eslint-config@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@alquipo/eslint-config/-/eslint-config-1.2.5.tgz#296e0ad2d521b3263b709180c45713b9c5157f27"
+  integrity sha512-AZ9yaHdWzWK7lctd2PxXal9lvb6MFNh2Gp+xvgkYzL8ix4z99M35FQzT9ILTkLaDdaWafYsmIofZjvK1Ea81IA==
   dependencies:
     "@next/eslint-plugin-next" "^12.3.1"
     "@typescript-eslint/eslint-plugin" "^5.19.0"
