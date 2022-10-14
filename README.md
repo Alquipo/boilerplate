@@ -1,7 +1,7 @@
 <img alt="NextJS" title="NextJS" src=".github/readme/NextJs.png" />
 
 <h1 align="center">
-🚧 Boilerplat NextJs  | Em Construção 🚧
+Boilerplat NextJs
 </h1>
 
 <p align="center">
@@ -40,7 +40,7 @@
 
 ## 🚀 Sobre o Projeto
 
-Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos FrontEnd.
+Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos.
 
 ## 🎨 Layout
 
@@ -50,18 +50,13 @@ Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos F
   <tr>
     <td colspan="1"><h4 align="center">Geração de Componentes</h4> </td>
     <td colspan="1"><h4 align="center">Storybook</h4></td>
-    <td colspan="1"><h4 align="center">Main Component</h4></td>
+    <td colspan="1"><h4 align="center">Teste unitarios</h4></td>
   </tr>
   <tr>
     <td><img src=".github/readme/generate-components.png" width=300 /></td>
-    <td>
-      <a target="_blank" href="https://raw.githubusercontent.com/Alquipo/boilerplate-nextjs/master/.github/readme/storybook-main.png">
-        <img src=".github/readme/storybook-main.png" width=300 />
-      </a>
-    </td>
-    <td><img src=".github/readme/component-main.png" width=300 /></td>
-    <!-- <td><img src=".github/readme/component-main.png" width=180 /></td>
-    <td><img src=".github/readme/component-main.png" width=180 /></td> -->
+    <td><img src=".github/readme/storybook.png" width=300 /></td>
+    <td><img src=".github/readme/tests.png" width=300 /></td>
+
   </tr>
 </table>
 
@@ -74,8 +69,10 @@ Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos F
 - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)**
 - **[Storybook](https://storybook.js.org/)**
 - **[Eslint](https://eslint.org/)**
+- **[@alquipo/eslint-config](https://www.npmjs.com/package/@alquipo/eslint-config)**
 - **[Prettier](https://prettier.io/)**
 - **[Husky](https://github.com/typicode/husky)**
+- **[git-commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter)**
 - **[PlopJS](https://plopjs.com/)**
 
 ## 🔎 Comandos
@@ -94,6 +91,12 @@ Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos F
 
 Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
 
+### ♾️ Usando create-next-app CLI (melhor forma)
+
+```bash
+# run project create-app-next cli
+$ yarn create next-app -e https://github.com/Alquipo/boilerplate
+```
 ### 🌀 Clonando o repositório
 
 ```bash

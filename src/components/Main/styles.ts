@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: ${(props) => props.theme.colors.mainBg};
   color: #fff;
   width: 100%;
   height: 100%;
@@ -36,9 +36,12 @@ export const Illustration = styled.div`
 `
 export const Button = styled.button`
   border: none;
-  background-color: #3cd3c1;
-  width: 10rem;
+  background-color: ${(props) => props.theme.colors.secondary};
+  width: 12rem;
+  height: 3rem;
   cursor: pointer;
   border-radius: 0.5rem;
   margin-top: 1rem;
+
+  font-weight: bold;
 `

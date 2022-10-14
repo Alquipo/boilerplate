@@ -6,7 +6,7 @@ export default create({
   base: 'dark',
   colorSecondary: theme.colors.primary,
 
-  brandTitle: 'Boylerplate',
+  brandTitle: 'Boilerplate',
   brandUrl: 'https://alquipo.dev/',
   brandImage: logo
 })
